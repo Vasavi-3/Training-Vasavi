@@ -33,12 +33,13 @@ public static void main(String args[])
 System.out.println("deposit process");
 {
 Deposit s1=new Deposit();
-w1.details();
+s1.details();
 s1.depamt();
 System.out.println("withdrawl process");
-s2.details();
-s2.withamt();
+Withdrawl d1=new Withdrawl();
+d1.details();
+d2.withamt();
 }
 }
 }
-}
+
